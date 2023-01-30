@@ -1,0 +1,113 @@
+html {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+h3, h4, h1, p, a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.selected {
+    background-color: rgb(58, 30, 100);
+}
+
+.selected:hover {
+    background-color: rgb(11, 110, 77);
+}
+
+body {
+    /* background-image: url('../images/lotr_river_statue.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(228, 243, 224);
+    background-attachment: fixed; */
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overscroll-behavior: none;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    margin: auto;
+    width: 90vw;
+}
+
+#sections {
+    text-overflow: clip;
+}
+
+#info {
+    flex-grow: 3;
+    padding: 2em;
+}
+
+#mainImg {
+    flex-grow: 2;
+    padding: 2em;
+    aspect-ratio: 1 / 1;
+    max-width: 25%;
+    border-radius: 50%;
+}
+
+#spacer {
+    background-color: black;
+    height: 4px;
+}
+
+#buttonAboutMe {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: .1em;
+}
+
+button {
+    border-style: none;
+    padding: 1em;
+    background-color: rgb(19, 94, 69);
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(48, 146, 100);
+    cursor: pointer;
+}
+
+@media screen and (max-aspect-ratio: 5/4) {
+    #wrapper {
+        flex-direction: column;
+    }
+
+    h1, h3, p {
+        text-align: center;
+    }
+
+    #buttons {
+        width: fit-content;
+        margin: auto;
+    }
+
+    #aboutContainer {
+        width: fit-content;
+        margin: auto;
+    }
+
+    #mainImg {
+        max-width: 50%;
+    }
+
+}
