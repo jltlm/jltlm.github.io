@@ -11,7 +11,7 @@ export default function ContactSection({title}) {
             <p>Github: <a href="https://github.com/jltlm/">https://github.com/jltlm/</a></p>
             <p>LinkedIn: <a
                     href="https://www.linkedin.com/in/juliet-lam/">https://www.linkedin.com/in/juliet-lam/</a></p>
-            <p>Email: <a href="jlam011235@gmail.com">jlam011235@gmail.com</a> (preferred method of contact)</p>
+            <p>Email: <a href="jltlam011235@gmail.com">jltlam011235@gmail.com</a> (preferred method of contact)</p>
             <p>Resume: <a href={resume}>resume</a></p>
 
 
