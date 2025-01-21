@@ -3,6 +3,7 @@ import '../section.css';
 import cyoaImg from '../../../assets/images/project/proj_cyoa.png'
 import jsgamesImg from '../../../assets/images/project/proj_jsgames.png'
 import coderacerImg from '../../../assets/images/project/proj_coderacer.png'
+import echoflowerImg from '../../../assets/images/project/proj_echoflower.png'
 import ProjectWidget from '../../widget/projectWidget/ProjectWidget';
 
 export default function ProjectSection({title}) {
@@ -33,8 +34,14 @@ export default function ProjectSection({title}) {
         <ProjectWidget
             title="CodeRacer"
             image={coderacerImg}
-            description="Project for hackharvard 2024- I worked on the backend, mostly."
+            description="Project for hackharvard 2024- I mostly worked on the backend, to allow multiplayer using Socket.io"
             source="https://github.com/zmb6893/CodeRacer/"
+            />
+        <ProjectWidget
+            title="Echo Flower Scene, 3D"
+            image={echoflowerImg}
+            description="recreating a scene from Undertale using WebGPU, 2024"
+            source="https://github.com/jltlm/echo-flower-scene"
             />
 
         </div>

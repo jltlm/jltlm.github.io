@@ -17,7 +17,7 @@ export default function ExperienceSection({title}) {
             description = {`I've been a course assistant for two classes: Software
                 Development and Problem Solving (Java), and Introduction to Software 
                 Engineering, which teaches software process, design, and full-stack
-                web dev (JS).`}
+                web dev (JS, Angular JS).`}
             descriptionPoints = {[
                 `Assist students and answer their questions in class`,
                 `Grade assignments and provide personalized feedback`
@@ -30,7 +30,7 @@ export default function ExperienceSection({title}) {
         <ExperienceWidget
             title = 'Software Engineer Intern'
             employer = 'L3 Harris Technologies'
-            description = {`A 7 month nternship at L3Harris Technologies doing radio things`}
+            description = {`A 7 month internship at L3Harris Technologies doing radio things`}
             descriptionPoints = {[
                 `Ported a non-networked desktop application to a full-stack Flask web application to allow multiple users to connect to a sqlite3 database`,
                 `Automated the software packaging process for product releases using a Makefile script, reducing manual
@@ -44,13 +44,12 @@ export default function ExperienceSection({title}) {
         />
 
         <ExperienceWidget
-            title = 'Software Developer'
+            title = 'Web Developer'
             employer = 'Rochester Institute of Technology'
             description = {`Revamped a part of RIT's Software Engineering department's
                 senior project website for RIT.`}
             descriptionPoints = {[
-                `Added gantt chart feature to senior project website to assist students and faculty in viewing their tasks in a
- calendar-type view`
+                `Designed and implemented a gantt chart feature to university Reactjs website to assist students and faculty in viewing their tasks in a calendar-type view`
             ]}
             location = 'Rochester, NY'
             startDate = 'June 2024'
