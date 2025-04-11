@@ -4,6 +4,7 @@ import cyoaImg from '../../../assets/images/project/proj_cyoa.png'
 import jsgamesImg from '../../../assets/images/project/proj_jsgames.png'
 import coderacerImg from '../../../assets/images/project/proj_coderacer.png'
 import echoflowerImg from '../../../assets/images/project/proj_echoflower.png'
+import fingergunsImg from '../../../assets/images/project/proj_fingerguns.jpg'
 import ProjectWidget from '../../widget/projectWidget/ProjectWidget';
 
 export default function ProjectSection({title}) {
@@ -17,6 +18,12 @@ export default function ProjectSection({title}) {
 
         <div id='projGallery'>
 
+        <ProjectWidget
+            title="Finger Guns"
+            image={fingergunsImg}
+            description="An astroid-shooter type of game."
+            source="https://github.com/jltlm/ubiquitous-goggles"
+            />
         <ProjectWidget
             title="Kato's Rats"
             image={cyoaImg}

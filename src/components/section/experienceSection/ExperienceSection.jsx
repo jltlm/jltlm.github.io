@@ -30,7 +30,7 @@ export default function ExperienceSection({title}) {
         <ExperienceWidget
             title = 'Software Engineer Intern'
             employer = 'L3 Harris Technologies'
-            description = {`A 7 month internship at L3Harris Technologies doing radio things`}
+            description = {`A 7 month internship at L3Harris Technologies doing various tasks, including`}
             descriptionPoints = {[
                 `Ported a non-networked desktop application to a full-stack Flask web application to allow multiple users to connect to a sqlite3 database`,
                 `Automated the software packaging process for product releases using a Makefile script, reducing manual
