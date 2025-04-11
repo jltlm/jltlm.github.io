@@ -45,3 +45,10 @@ h1.sectionTitle {
     color: rgb(0, 0, 255);
   }
 }
+
+@media only screen and (max-width: 600px) {
+  div.section {
+    width: 90%;
+    padding: 10px;
+  }
+}
