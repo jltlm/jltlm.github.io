@@ -48,7 +48,8 @@ button:hover {
   #content {
     position: relative;
     float: none;
-    margin: auto;
+    margin: 1rem;
+    /* margin: auto; */
 
   }
 }

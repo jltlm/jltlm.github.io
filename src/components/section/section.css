@@ -47,8 +47,19 @@ h1.sectionTitle {
 }
 
 @media only screen and (max-width: 600px) {
+  h1.sectionTitle {
+    position: sticky;
+    top: 2rem;
+    width: 100%;
+    padding-left: 0px;
+    margin: -10px;
+    padding: 0 10px;
+    background-color: #0eaf9b;
+    background-blend-mode: hard-light;
+  }
+  
   div.section {
-    width: 90%;
+    width: 85vw;
     padding: 10px;
   }
 }
