@@ -12,6 +12,23 @@ export default function ExperienceSection({title}) {
         <p>Alternatively, <a href={resume}>here is my resume</a></p>
 
         <ExperienceWidget
+            title = 'Full-Stack Blockchain Developer'
+            employer = 'Yale University'
+            description = {`I work on blockchain-related projects to further bioinformatics,
+                planning and building applications around the blockchain. I also test these
+                systems thoroughly.`}
+            descriptionPoints = {[
+                `Developed and deployed a Solidity smart contract on Ethereum to store and track study logs, ensuring immutable 
+and transparent record-keeping`,
+                `Designed and implemented a Spring Boot REST API to enable researchers to add and query study logs, utilizing 
+Web3j to integrate with the blockchain running on a Geth node`
+            ]}
+            location = 'New Haven, CT'
+            startDate = 'July 2025'
+            endDate = 'Present'
+        />
+
+        <ExperienceWidget
             title = 'Course Assistant'
             employer = 'Rochester Institute of Technology'
             description = {`I've been a course assistant for two classes: Software
@@ -24,7 +41,7 @@ export default function ExperienceSection({title}) {
             ]}
             location = 'Rochester, NY'
             startDate = 'September 2022'
-            endDate = 'Present'
+            endDate = 'August 2024'
         />
 
         <ExperienceWidget
