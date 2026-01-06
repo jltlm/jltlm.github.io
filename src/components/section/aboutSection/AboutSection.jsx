@@ -17,8 +17,8 @@ export default function AboutSection({title}) {
         <p>
             Completed coursework includes Database and Data Modeling, 
             Web Engineering, Web and Mobile, Engineering Secure Software, 
-            Software Design for Computing Systems, Computer Graphics, Client and Server Programming.
-            Currently taking Networking, Introduction to AI, and finding those very interesting.
+            Software Design for Computing Systems, Computer Graphics, Client and Server Programming,
+            Networking, Intro to AI.
         </p>
         <p>
             If you find any of this interesting &#x1f441;&#x1f441;,
